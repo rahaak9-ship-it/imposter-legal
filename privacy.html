@@ -1,0 +1,179 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>سياسة الخصوصية — امبوستر</title>
+  <style>
+    :root {
+      --ink: #241c15;
+      --cream: #fff7e8;
+      --paper: #ffffff;
+      --coral: #ff6b6b;
+      --mint: #2ec4b5;
+      --sun: #ffc83d;
+      --muted: rgba(36, 28, 21, .62);
+      --line: rgba(36, 28, 21, .12);
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      background: var(--cream);
+      color: var(--ink);
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Tahoma, Arial, sans-serif;
+      line-height: 1.9;
+    }
+    .wrap { max-width: 860px; margin: 0 auto; padding: 28px 20px 64px; }
+    .hero {
+      display: flex; align-items: center; gap: 16px;
+      background: var(--paper);
+      border: 3px solid var(--ink);
+      border-radius: 26px;
+      padding: 22px;
+      box-shadow: 0 10px 0 rgba(36, 28, 21, .12);
+      margin-bottom: 22px;
+    }
+    .hero img { width: 78px; height: 78px; border-radius: 20px; border: 3px solid var(--ink); }
+    .hero h1 { margin: 0; font-size: clamp(24px, 4vw, 34px); }
+    .hero p { margin: 4px 0 0; color: var(--muted); font-size: 14px; }
+    .card {
+      background: var(--paper);
+      border: 2px solid var(--line);
+      border-radius: 22px;
+      padding: 22px;
+      margin: 14px 0;
+    }
+    h2 { margin: 0 0 8px; font-size: 20px; }
+    p, li { font-size: 15px; }
+    ul { padding-right: 22px; margin: 8px 0; }
+    a { color: #b33b3b; }
+    .pill {
+      display: inline-block; background: rgba(46, 196, 181, .18);
+      border: 2px solid var(--mint); border-radius: 999px;
+      padding: 2px 12px; font-size: 12px; font-weight: 700;
+    }
+    .footer { text-align: center; color: var(--muted); font-size: 12px; margin-top: 26px; }
+    .nav { display: flex; gap: 10px; flex-wrap: wrap; margin-bottom: 18px; }
+    .nav a {
+      text-decoration: none; color: var(--ink); font-weight: 700; font-size: 13px;
+      background: var(--paper); border: 2px solid var(--line);
+      padding: 8px 14px; border-radius: 999px;
+    }
+  </style>
+</head>
+<body>
+  <main class="wrap">
+    <div class="nav">
+      <a href="index.html">الدعم</a>
+      <a href="privacy.html">سياسة الخصوصية</a>
+    </div>
+
+    <header class="hero">
+      <img src="icon.png" alt="أيقونة امبوستر">
+      <div>
+        <h1>سياسة الخصوصية</h1>
+        <p>امبوستر: لعبة الجماعة — آخر تحديث: 28 أكتوبر 2026</p>
+      </div>
+    </header>
+
+    <section class="card">
+      <span class="pill">باختصار</span>
+      <p>
+        امبوستر لعبة جماعية لا تحتاج إلى حساب. لا نبيع بياناتك، ولا نعرض إعلانات،
+        ولا نستخدم أدوات تتبّع أو تحليلات. نجمع فقط ما يلزم لتشغيل اللعبة
+        (اسم اللاعب وحالة الغرفة) عندما تختار اللعب أونلاين.
+      </p>
+    </section>
+
+    <section class="card">
+      <h2>1. من نحن</h2>
+      <p>
+        هذا التطبيق <strong>«امبوستر: لعبة الجماعة»</strong> (Imposter) طوّرته
+        <strong>Raha</strong>. للتواصل بخصوص الخصوصية:
+        <a href="mailto:rahaak9@gmail.com">rahaak9@gmail.com</a>.
+      </p>
+    </section>
+
+    <section class="card">
+      <h2>2. البيانات التي قد نجمعها</h2>
+      <ul>
+        <li><strong>اسم اللاعب:</strong> الاسم الذي تكتبه داخل اللعبة. يمكنك استخدام اسم مستعار.</li>
+        <li><strong>بيانات الغرفة واللعب:</strong> كود الغرفة، البطاقات، التصويتات، النقاط، وحالة الاتصال — لتشغيل الجولة ومزامنتها بين اللاعبين.</li>
+        <li><strong>بيانات تقنية:</strong> قد يعالج مزوّد الاستضافة (Render) عنوان IP وبيانات الطلب الأساسية لتشغيل السيرفر وحمايته. لا نستخدمها للتتبع أو الإعلانات.</li>
+      </ul>
+      <p>
+        في الوضع المحلي (جوال واحد) لا تُرسل أي بيانات إلى سيرفرنا. تُحفظ أسماء
+        اللاعبين والإعدادات محليًا على جهازك باستخدام UserDefaults.
+      </p>
+    </section>
+
+    <section class="card">
+      <h2>3. كيف نستخدم البيانات</h2>
+      <ul>
+        <li>إنشاء غرفة أونلاين والانضمام إليها بكود.</li>
+        <li>توزيع البطاقات وإخفاء هوية «البرا» حتى النتيجة.</li>
+        <li>مزامنة التصويت والنقاط والمراحل بين اللاعبين.</li>
+        <li>استئناف الغرفة إذا أُغلق التطبيق (كود الغرفة + توكن الجلسة).</li>
+        <li>حماية الخدمة من إساءة الاستخدام والأعطال.</li>
+      </ul>
+    </section>
+
+    <section class="card">
+      <h2>4. المشاركة والبيع</h2>
+      <p>
+        لا نبيع بياناتك ولا نشاركها لأغراض إعلانية أو تسويقية. قد يعالج مزوّد
+        الاستضافة <strong>Render</strong> بيانات السيرفر التقنية فقط لتشغيل الخدمة.
+        قد تجمع Apple (TestFlight / App Store) تشخيصات الاستخدام حسب سياسة Apple.
+      </p>
+    </section>
+
+    <section class="card">
+      <h2>5. مدة الاحتفاظ</h2>
+      <ul>
+        <li>الغرف موجودة في ذاكرة السيرفر وتنتهي بعد ساعتين من الخمول أو عند إعادة تشغيل السيرفر.</li>
+        <li>لا توجد قاعدة بيانات دائمة للغرف أو الأسماء على السيرفر.</li>
+        <li>الاسم والإعدادات وجلسة الاستئناف تُحفظ على جهازك، ويمكن حذفها بحذف التطبيق.</li>
+      </ul>
+    </section>
+
+    <section class="card">
+      <h2>6. الأطفال</h2>
+      <p>
+        اللعبة مناسبة للعائلة، لكنها غير موجهة لجمع بيانات الأطفال عمدًا. ننصح
+        باستخدام اسم مستعار وعدم كتابة معلومات شخصية حساسة في اسم اللاعب.
+      </p>
+    </section>
+
+    <section class="card">
+      <h2>7. الأمان</h2>
+      <p>
+        نستخدم HTTPS للاتصال بسيرفر الغرف، وتوكن جلسة عشوائي لكل لاعب. لا يمكن
+        ضمان أمان أي خدمة على الإنترنت بنسبة 100%، لكننا نقلل جمع البيانات
+        ونحتفظ بالغرف في الذاكرة فقط.
+      </p>
+    </section>
+
+    <section class="card">
+      <h2>8. حقوقك</h2>
+      <p>
+        يمكنك طلب حذف بيانات غرفة أو الاستفسار عن الخصوصية عبر
+        <a href="mailto:rahaak9@gmail.com">rahaak9@gmail.com</a>. وبما أن الغرف
+        مؤقتة، فإن حذف التطبيق يزيل البيانات المحلية، وانتهاء الغرفة يزيل بياناتها
+        من الذاكرة.
+      </p>
+    </section>
+
+    <section class="card">
+      <h2>9. تغييرات السياسة</h2>
+      <p>
+        قد نحدّث هذه السياسة عند إضافة ميزات جديدة. سيظهر تاريخ آخر تحديث في
+        أعلى الصفحة، والتغييرات الجوهرية سنوضحها داخل التطبيق أو في صفحة الدعم.
+      </p>
+    </section>
+
+    <footer class="footer">
+      © 2026 Raha — امبوستر: لعبة الجماعة
+    </footer>
+  </main>
+</body>
+</html>

@@ -1,0 +1,151 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>دعم امبوستر</title>
+  <style>
+    :root {
+      --ink: #241c15;
+      --cream: #fff7e8;
+      --paper: #ffffff;
+      --coral: #ff6b6b;
+      --mint: #2ec4b5;
+      --sun: #ffc83d;
+      --muted: rgba(36, 28, 21, .62);
+      --line: rgba(36, 28, 21, .12);
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      background: var(--cream);
+      color: var(--ink);
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Tahoma, Arial, sans-serif;
+      line-height: 1.9;
+    }
+    .wrap { max-width: 860px; margin: 0 auto; padding: 28px 20px 64px; }
+    .hero {
+      display: flex; align-items: center; gap: 16px;
+      background: var(--paper);
+      border: 3px solid var(--ink);
+      border-radius: 26px;
+      padding: 22px;
+      box-shadow: 0 10px 0 rgba(36, 28, 21, .12);
+      margin-bottom: 22px;
+    }
+    .hero img { width: 82px; height: 82px; border-radius: 20px; border: 3px solid var(--ink); }
+    .hero h1 { margin: 0; font-size: clamp(24px, 4vw, 34px); }
+    .hero p { margin: 4px 0 0; color: var(--muted); font-size: 14px; }
+    .nav { display: flex; gap: 10px; flex-wrap: wrap; margin-bottom: 18px; }
+    .nav a {
+      text-decoration: none; color: var(--ink); font-weight: 700; font-size: 13px;
+      background: var(--paper); border: 2px solid var(--line);
+      padding: 8px 14px; border-radius: 999px;
+    }
+    .card {
+      background: var(--paper);
+      border: 2px solid var(--line);
+      border-radius: 22px;
+      padding: 22px;
+      margin: 14px 0;
+    }
+    h2 { margin: 0 0 8px; font-size: 20px; }
+    p, li { font-size: 15px; }
+    ul { padding-right: 22px; margin: 8px 0; }
+    a { color: #b33b3b; }
+    .contact {
+      display: flex; flex-wrap: wrap; gap: 10px; margin-top: 12px;
+    }
+    .contact a {
+      text-decoration: none; color: var(--ink); font-weight: 800; font-size: 14px;
+      background: var(--sun); border: 2px solid var(--ink);
+      padding: 10px 18px; border-radius: 999px;
+    }
+    .footer { text-align: center; color: var(--muted); font-size: 12px; margin-top: 26px; }
+  </style>
+</head>
+<body>
+  <main class="wrap">
+    <div class="nav">
+      <a href="index.html">الدعم</a>
+      <a href="privacy.html">سياسة الخصوصية</a>
+    </div>
+
+    <header class="hero">
+      <img src="icon.png" alt="أيقونة امبوستر">
+      <div>
+        <h1>دعم امبوستر</h1>
+        <p>امبوستر: لعبة الجماعة — مساعدة سريعة للعب المحلي والأونلاين</p>
+      </div>
+    </header>
+
+    <section class="card">
+      <h2>تواصل معنا</h2>
+      <p>
+        لأي مشكلة أو اقتراح أو استفسار عن الخصوصية، راسلنا على البريد التالي
+        وسنرد عليك في أقرب وقت:
+      </p>
+      <div class="contact">
+        <a href="mailto:rahaak9@gmail.com">rahaak9@gmail.com</a>
+        <a href="privacy.html">سياسة الخصوصية</a>
+      </div>
+    </section>
+
+    <section class="card">
+      <h2>كيف ألعب محليًا؟</h2>
+      <ul>
+        <li>افتح التطبيق واضغط <strong>ابدأ اللعبة</strong>.</li>
+        <li>أضف أسماء اللاعبين (٣ إلى ١٢ لاعبًا).</li>
+        <li>اختر النمط: <strong>برا السالفة</strong> أو <strong>الكلمة الشبيهة</strong>.</li>
+        <li>اختر الفئات وعدد الجولات والمؤقت، ثم اضغط <strong>ابدأ اللعبة</strong>.</li>
+        <li>مرّر الجوال لكل لاعب ليكشف بطاقته سرًا، ثم ابدأوا النقاش والتصويت.</li>
+      </ul>
+    </section>
+
+    <section class="card">
+      <h2>كيف ألعب أونلاين؟</h2>
+      <ul>
+        <li>اضغط <strong>أونلاين — كود غرفة</strong> واكتب اسمك.</li>
+        <li>أنشئ غرفة وشارك الكود المكوّن من ٤ أحرف مع أصدقائك.</li>
+        <li>ينضم الباقون عبر <strong>انضم بكود</strong> بنفس الكود.</li>
+        <li>المضيف يبدأ اللعبة، وكل لاعب يرى بطاقته على جواله.</li>
+      </ul>
+      <p>
+        <strong>ملاحظة:</strong> سيرفر الغرف المجاني قد ينام عند الخمول.
+        أول اتصال قد يستغرق حتى دقيقة لتشغيله، وبعدها يعمل بشكل طبيعي.
+      </p>
+    </section>
+
+    <section class="card">
+      <h2>الغرفة اختفت أو انتهت</h2>
+      <p>
+        الغرف مؤقتة وتُحفظ في ذاكرة السيرفر. تنتهي بعد ساعتين من الخمول أو عند
+        إعادة تشغيل السيرفر. أنشئ غرفة جديدة وأعد إرسال الكود لأصدقائك.
+      </p>
+    </section>
+
+    <section class="card">
+      <h2>هل التطبيق يجمع بياناتي؟</h2>
+      <p>
+        لا نبيع البيانات ولا نعرض إعلانات أو تتبّعًا. نجمع فقط اسم اللاعب وحالة
+        الغرفة لتشغيل اللعب الأونلاين. التفاصيل في
+        <a href="privacy.html">سياسة الخصوصية</a>.
+      </p>
+    </section>
+
+    <section class="card">
+      <h2>مشاكل شائعة</h2>
+      <ul>
+        <li><strong>لا يظهر زر الأونلاين:</strong> تأكد من اتصال الإنترنت وافتح شاشة الأونلاين مرة أخرى.</li>
+        <li><strong>تعذر الاتصال بالسيرفر:</strong> انتظر نصف دقيقة وجرّب مرة أخرى؛ قد يكون السيرفر يستيقظ.</li>
+        <li><strong>الصوت لا يعمل:</strong> تأكد من زر الصوت داخل التطبيق ومن وضع الصامت على الجوال.</li>
+        <li><strong>الاسم طويل:</strong> الحد الأقصى ١٨ حرفًا.</li>
+      </ul>
+    </section>
+
+    <footer class="footer">
+      © 2026 Raha — امبوستر: لعبة الجماعة
+    </footer>
+  </main>
+</body>
+</html>
